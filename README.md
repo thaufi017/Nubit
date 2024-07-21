@@ -69,6 +69,4 @@ curl -sL1 https://nubit.sh | bash
 ```
 ## Conclusion
 
-Configuring the RPC address correctly is crucial for the proper functioning of your Nubit node. By following these steps, you should be able to resolve the localhost RPC address configuration issue and ensure that your node is accessible and operational.
-
-Running a Nubit node can be a complex but rewarding task, and troubleshooting issues like these is part of the learning process. Happy coding, and may your node run smoothly!
+Configuring the RPC address correctly is crucial for the proper functioning of your Nubit node. By following these steps, you should be able to resolve the localhost RPC address configuration issue and ensure that your node is accessible and operational. Running a Nubit node can be a complex but rewarding task, and troubleshooting issues like these is part of the learning process. Happy coding, and may your node run smoothly!
