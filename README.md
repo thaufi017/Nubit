@@ -9,3 +9,20 @@ While setting up my Nubit node, I encountered an error related to the RPC addres
 ![error](https://github.com/user-attachments/assets/83e7c586-27c6-4311-afaf-5bc5aa141e43)
 
 in the last line you can see the error service/rpc: invalid addess: no suitable address found
+
+
+This error can occur due to several reasons:
+1. **Incorrect RPC address in the `config.toml` file**: The default configuration might not match your server's network settings.
+2. **Firewall or network settings**: The VPS or local machine might have restrictions that prevent connections to `localhost`.
+3. **Service not running**: The RPC service might not be started correctly.
+
+## The Solution: Correcting the RPC Address Configuration
+
+To resolve this issue, follow these steps:
+
+### 1. Access Your VPS or Local Machine
+
+Log in to your server or local machine using SSH or terminal. Use the following command:
+
+```bash
+ssh your_username@your_vps_ip
