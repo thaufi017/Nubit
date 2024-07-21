@@ -27,7 +27,6 @@ Log in to your server or local machine using SSH or terminal. Use the following 
 ```bash
 ssh your_username@your_vps_ip
 ```
-# Nubit Node Configuration Guide
 
 ### 2. Locate the `config.toml` File
 
@@ -63,7 +62,7 @@ Change the Address from localhost to 0.0.0.0 to allow connections from any netwo
 
 To save your changes and exit vim, press Esc to ensure you are in command mode, then type :wq and press Enter.
 
-##6. Restart the Nubit Node
+#6. Restart the Nubit Node
 Restart your Nubit node to apply the changes using the following command:
 ```bash
 curl -sL1 https://nubit.sh | bash
