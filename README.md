@@ -26,24 +26,24 @@ Log in to your server or local machine using SSH or terminal. Use the following 
 
 ```bash
 ssh your_username@your_vps_ip
-
+```
 # Nubit Node Configuration Guide
 
-## 2. Locate the `config.toml` File
+### 2. Locate the `config.toml` File
 
 The `config.toml` file is typically located in the `.nubit-light-nubit-alphatestnet-1` directory within your home directory. Navigate to this directory with:
 
 ```bash
 cd /home/your_username/.nubit-light-nubit-alphatestnet-1
-
-## 3. Edit the config.toml File
+```
+### 3. Edit the config.toml File
 
 Open the config.toml file using vim or your preferred text editor:
 
 ```bash
 vim config.toml
-
-## 4. Modify the RPC Address
+```
+### 4. Modify the RPC Address
 
 Find the [RPC] section in the config.toml file. It will look like this:
 ```toml
@@ -51,23 +51,23 @@ Find the [RPC] section in the config.toml file. It will look like this:
   Address = "localhost"
   Port = "26658"
   SkipAuth = false
-
+```
 Change the Address from localhost to 0.0.0.0 to allow connections from any network interface:
 ```toml
 [RPC]
   Address = "0.0.0.0"
   Port = "26658"
   SkipAuth = false
-
-## 5. Save and Exit
+```
+### 5. Save and Exit
 
 To save your changes and exit vim, press Esc to ensure you are in command mode, then type :wq and press Enter.
 
-#6. Restart the Nubit Node
+##6. Restart the Nubit Node
 Restart your Nubit node to apply the changes using the following command:
 ```bash
 curl -sL1 https://nubit.sh | bash
-
+```
 # Conclusion
 
 Configuring the RPC address correctly is crucial for the proper functioning of your Nubit node. By following these steps, you should be able to resolve the localhost RPC address configuration issue and ensure that your node is accessible and operational.
