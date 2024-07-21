@@ -62,12 +62,12 @@ Change the Address from localhost to 0.0.0.0 to allow connections from any netwo
 
 To save your changes and exit vim, press Esc to ensure you are in command mode, then type :wq and press Enter.
 
-#6. Restart the Nubit Node
+### 6. Restart the Nubit Node
 Restart your Nubit node to apply the changes using the following command:
 ```bash
 curl -sL1 https://nubit.sh | bash
 ```
-# Conclusion
+## Conclusion
 
 Configuring the RPC address correctly is crucial for the proper functioning of your Nubit node. By following these steps, you should be able to resolve the localhost RPC address configuration issue and ensure that your node is accessible and operational.
 
